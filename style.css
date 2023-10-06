@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+    padding: 100px 0;
+    
+    background: url('https://img.freepik.com/free-photo/white-texture_1160-786.jpg?w=1480&t=st=1696432815~exp=1696433415~hmac=2225932e94e897c7bcd5df73584e0cdceb3d97cbcf21b8ae68e05810495d08a6')
+        
+
+
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 800px;
+    min-height: 550px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+
+}
+
+.header {
+    display: flex;
+
+    height: 150px;
+    
+}
+
+.title-block {
+
+   position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    width: 80%;
+    height: 100%;
+  background: url("https://plus.unsplash.com/premium_photo-1678566111481-8e275550b700?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80")
+  no-repeat center center / cover;
+  color: white;
+  margin-right: 10px;
+} 
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 1;
+
+}
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic {
+    height: 100%;
+    display: flex;
+    width: 20%;
+background: url("https://m.media-amazon.com/images/I/61MCzy7ycSL._AC_UF1000,1000_QL80_.jpg")
+     no-repeat center center / cover;
+
+}
+.nav ul {
+    display: flex;
+    background: lightgray;
+    margin: 10px 0;
+}
+
+.nav li {
+
+}
+
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+text-decoration: none;
+color: black;
+font-weight: bold;
+border-right: 1px solid whitesmoke;
+transition: background .3s ease;
+}
+
+.nav li a:hover {
+    background: lightslategrey;
+}
+
+.content-wrapper {
+    display: flex;
+}
+.content {
+width: 70%;
+padding: 20px;
+}
+.sidebar {
+    text-align: center;
+     
+    width: 30%;
+   padding: 20px;
+   font-size: 45;
+}
+
+.Skills li {
+padding: 10px 0;
+}
+.Skills li:hover {
+    transform: translateX(10px);
+    transition: transform .5s ease;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.button {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 15px 32px;
+    font-size: 45 px;
+    font-weight: bold;
+    margin: 20px 0;
+    border: none;
+    display: inline-block;
+    color: black;
+
+}
+
+.button:hover {
+    
+    transition: background .5s ease;
+cursor: pointer;
+background: gray;
+
+}
+.footer {
+    text-align: center;
+    background: whitesmoke;
+    padding: 7px;
+}
